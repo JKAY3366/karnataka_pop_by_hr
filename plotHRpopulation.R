@@ -71,5 +71,5 @@ tmap_save(map, filename = "thematic_map.png",
           width = 10, height = 6, units = "in", dpi = 300)
 
 ## free up space ##
-rm(ls())
+rm(list = ls())
 ################################################################################
